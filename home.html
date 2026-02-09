@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Jampani Mahesh Babu — M.Tech CSE portfolio homepage." />
+    <title>Jampani Mahesh Babu | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <nav class="navbar">
+        <a class="logo" href="home.html">Jampani Mahesh Babu<span>.</span></a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a class="nav-link" data-page="home" href="home.html">Home</a></li>
+           <li><a class="nav-link" data-page="resume" href="#resume">Resume</a></li>
+          <li><a class="nav-link" data-page="about" href="#about">About</a></li>
+          <li><a class="nav-link" data-page="skills" href="#skills">Skills</a></li>
+          <li><a class="nav-link" data-page="projects" href="#projects">Projects</a></li>
+          <li><a class="nav-link" data-page="contact" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Jampani Mahesh Babu</h1>
+          <p class="subtitle">M.Tech CSE | Software / ML Engineer</p>
+          <p class="summary">
+            Focused on building reliable software and applied machine learning solutions with strong
+            academic foundations in computer science.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="public/JAMPANI%20MAHESH%20BABU%20RESUME%5BNEW%5D.pdf" download="SampleResume.pdf">Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img class="hero-photo" src="assets/Profile%20Photo.jpg" alt="Jampani Mahesh Babu profile" />
+          <div class="hero-card">
+            <h3>Career Focus</h3>
+            <ul>
+              <li>Software Engineering</li>
+              <li>Applied Machine Learning</li>
+              <li>Data-Driven Systems</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section section--about" id="about">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <p>
+            M.Tech CSE student with a strong focus on systems, machine learning, and scalable
+            software. Interested in building production-grade solutions and research-backed
+            prototypes aligned with real-world needs.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section--education" id="education">
+        <div class="section-header">
+          <h2>Education</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>M.Tech – Computer Science & Engineering</h3>
+            <p>University / College Name</p>
+            <p class="muted">CGPA: 8.5 / 10</p>
+            <p class="muted">Key Subjects: Advanced Algorithms, Machine Learning, Cloud Computing</p>
+          </article>
+          <article class="card">
+            <h3>B.Tech – Computer Science & Engineering</h3>
+            <p>University / College Name</p>
+            <p class="muted">CGPA: 8.2 / 10</p>
+            <p class="muted">Key Subjects: Data Structures, DBMS, Operating Systems</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--skills" id="skills">
+        <div class="section-header">
+          <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Programming Languages</h3>
+            <div class="tag-list">
+              <span>Python</span>
+              <span>Java</span>
+              <span>C++</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Web Technologies</h3>
+            <div class="tag-list">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>React</span>
+              <span>Node.js</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>AI / ML / Data Science</h3>
+            <div class="tag-list">
+              <span>Scikit-learn</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>TensorFlow</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Databases</h3>
+            <div class="tag-list">
+              <span>PostgreSQL</span>
+              <span>MySQL</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Tools & Platforms</h3>
+            <div class="tag-list">
+              <span>Git</span>
+              <span>Docker</span>
+              <span>Linux</span>
+              <span>AWS</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--projects" id="projects">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p>Selected work demonstrating applied engineering and research skills.</p>
+        </div>
+        <div class="card-grid projects-grid">
+            <article class="card project-card">
+              <h3>Research Publication — CKD Diagnosis</h3>
+              <p>
+                An Improved Methodology For Diagnosis Of Chronic Kidney Disease Using Machine
+                Learning Techniques. Focused on feature engineering and model evaluation.
+              </p>
+              <p class="muted">Tech: Python, Scikit‑learn — Role: Research & Model Development</p>
+            </article>
+
+            <article class="card project-card">
+              <h3>Main Project — Real-time Heart Disease Prediction</h3>
+              <p>
+                Real Time Early Heart Disease Prediction Using Machine Learning Model — a
+                streaming pipeline for early risk detection.
+              </p>
+              <p class="muted">Tech: Python, ML, Real‑time Pipelines — Role: Full‑stack ML</p>
+            </article>
+
+            <article class="card project-card">
+              <h3>Mini Project — Gas Pipe Leakage Detector</h3>
+              <p>
+                Gas Pipe Leakage Detector System using sensors and edge processing to detect
+                leaks and notify operators.
+              </p>
+              <p class="muted">Tech: IoT, Microcontrollers — Role: Prototype & Testing</p>
+            </article>
+
+            <article class="card project-card">
+              <h3>Diploma Project — Power Grid Selection</h3>
+              <p>
+                Power Grid Selection From Multiple Power Source To Enhance Power Consumption
+                Using Renewable Energy Source — optimization and simulation work.
+              </p>
+              <p class="muted">Tech: Power Systems, Optimization — Role: Design & Simulation</p>
+            </article>
+        </div>
+      </section>
+
+      <section class="section section--certifications" id="certifications">
+        <div class="section-header">
+          <h2>Certifications & Achievements</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Machine Learning Specialization</h3>
+            <p class="muted">Coursera — 2025</p>
+          </article>
+          <article class="card">
+            <h3>Cloud Practitioner Essentials</h3>
+            <p class="muted">AWS — 2024</p>
+          </article>
+          <article class="card">
+            <h3>Data Analytics with Python</h3>
+            <p class="muted">NPTEL — 2024</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--resume" id="resume">
+        <div class="section-header">
+          <h2>Resume</h2>
+          <p>Download a concise PDF resume aligned with the details above.</p>
+        </div>
+        <div class="resume-card">
+          <div>
+            <h3>Jampani Mahesh Babu — M.Tech CSE</h3>
+            <p class="muted">Last updated: February 2026</p>
+          </div>
+          <a class="btn primary" href="public/JAMPANI%20MAHESH%20BABU%20RESUME%5BNEW%5D.pdf" download="SampleResume.pdf">Download Resume</a>
+        </div>
+      </section>
+
+      <section class="section section--contact" id="contact">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Open to internships, research roles, and full-time opportunities.</p>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:mahesh.cse@email.com">
+            <span>Email</span>
+            <strong>mahesh.cse@email.com</strong>
+          </a>
+          <a class="contact-card" href="https://github.com/your-username" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>github.com/your-username</strong>
+          </a>
+          <a class="contact-card" href="https://linkedin.com/in/your-username" target="_blank" rel="noreferrer">
+            <span>LinkedIn</span>
+            <strong>linkedin.com/in/your-username</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Jampani Mahesh Babu. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
